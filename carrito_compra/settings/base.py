@@ -83,16 +83,13 @@ LOGOUT_URL = 'cerrar_sesion'
 LOGIN_REDIRECT_URL = 'p_index_principal'
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',  # postgresql_psycopg2
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        # 'NAME': 'db',
-        # 'USER': '<db_username>',
-        # 'PASSWORD': '<password>',
-        # 'HOST': '<db_hostname_or_ip>',
-        # 'PORT': '<db_port>',
-    }
+'default': {
+    'ENGINE': 'django.db.backends.postgresql',
+    'NAME': 'reto-hero-startup',
+    'USER': 'postgres',
+    'PASSWORD': 'tJ849fkPAis7FduF',
+    'HOST': 'reto-hero-startup.ckfzi3dede5j.us-east-1.rds.amazonaws.com',
+    'PORT': '5432',
 }
 
 
