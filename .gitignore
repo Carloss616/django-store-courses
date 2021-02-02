@@ -1,0 +1,34 @@
+#gitIgnore de Setting.py
+carrito_compra/__pycache__/*
+local_settings.py
+
+# File types #
+##############
+*.pyo
+*.pyc
+*.swo
+*.swp
+*.swn
+
+# PyCharm project settings
+.idea
+
+# Directories #
+###############
+logs/
+
+# OS generated files #
+######################
+.DS_Store
+*.db
+Icon
+Thumbs.db
+*~HASLLAs
+,9   					
+
+# virtualenv #
+##############
+.venv
+venv/
+ENV/
+.vscode
