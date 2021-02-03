@@ -27,7 +27,7 @@
                                     <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Agregado</a>
                                     <a href=" {% url 'app_carrito:p_ver_carrito' request.user.usuario %} "> <button type="button" class="btn btn-outline-info waves-effect ir_carrito">Ir a tu carrito</button></a>
                                 {% else %}
-                                    <a hre`f=" {% url 'app_carrito:p_agregar_compra' curso.slug %} " class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Agregar al Carrito</a>
+                                    <a href=" {% url 'app_carrito:p_agregar_compra' curso.slug %} " class="btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Agregar al Carrito</a>
                                 {% endif %}
                             {% else %}
                                 <a href="#" class="btn btn-primary">Ingresar</a>

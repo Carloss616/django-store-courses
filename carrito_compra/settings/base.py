@@ -83,13 +83,15 @@ LOGOUT_URL = 'cerrar_sesion'
 LOGIN_REDIRECT_URL = 'p_index_principal'
 
 
-'default': {
-    'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'reto-hero-startup',
-    'USER': 'postgres',
-    'PASSWORD': 'tJ849fkPAis7FduF',
-    'HOST': 'reto-hero-startup.ckfzi3dede5j.us-east-1.rds.amazonaws.com',
-    'PORT': '5432',
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'reto-hero-startup',
+        'USER': 'postgres',
+        'PASSWORD': 'tJ849fkPAis7FduF',
+        'HOST': 'reto-hero-startup.ckfzi3dede5j.us-east-1.rds.amazonaws.com',
+        'PORT': '5432',
+    }
 }
 
 
